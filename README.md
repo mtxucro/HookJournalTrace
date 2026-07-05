@@ -35,8 +35,3 @@ Depois de gerar a DLL, use seu mecanismo preferido para injetá-la no processo a
 Este projeto altera o comportamento de chamadas de baixo nível do sistema — use apenas em ambientes de teste/avaliação ou conforme a legislação e políticas aplicáveis.
 
 Injeção de DLL em processos de terceiros pode ser detectada por soluções antimalware ou violar termos de uso.
-
-Versão curta (resumo)
-
-
-hook-journal é uma DLL Windows que utiliza MinHook para interceptar DeviceIoControl e filtrar entradas do USN Journal (NTFS) segundo uma lista configurável de nomes de arquivos bloqueados. Compile com Visual Studio, injete a DLL no processo alvo e o hook eliminará registros do USN Journal que corresponderem aos nomes bloqueados.
