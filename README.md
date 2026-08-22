@@ -1,4 +1,4 @@
-diário de gancho 🪝📓 — hook-journal
+hook-journal
 
 hook-journal é uma DLL para Windows que intercepta chamadas à API DeviceIoControl e filtra entradas do USN Journal (NTFS) com base numa lista configurável de nomes de arquivos bloqueados. É útil para cenários de segurança, monitoramento ou anti-adulteração, quando é necessário ocultar ou bloquear determinadas atividades de arquivo detectadas por ferramentas que leem o USN Journal.
 
